@@ -5,7 +5,7 @@
 #include<time.h>
 #include<ctype.h>
 
-#define MAX_ISLAND_NAME_LENGTH 50
+#define MAX_ISLAND_NAME_LENGTH 100
 #define MAX_DESCRIPTION_LENGTH 256
 #define NUMBER_OF_CLUE_ISLANDS 6
 #define INDEX_OF_CLUE_ISLAND 2
