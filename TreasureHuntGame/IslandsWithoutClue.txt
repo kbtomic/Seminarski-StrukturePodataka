@@ -1,0 +1,7 @@
+6
+0 X Smrt Dosao si na otok smrti i nazalost za tebe je igra gotova!
+0 X Pirat Dosao si na otok pirata i nazalost za tebe je igra gotova!
+0 0 Surfer Pripremi se na valove jer si dosao na otok surfera! Nazalost, ovdje neces pronaci novi trag!
+0 0 Rat Dobrodosao na ratni otok! Nazalost, ovdje neces pronaci novi trag!
+0 0 Cvijece Pomirisi miris divnog cvijeca jer si dosao na otok cvijeca. Nazalost, ovdje neces pronaci novi trag!
+0 0 Plaza Zavali se i upij zraku sunca jer si dosao na otok pjescanih plazi. Prava prilika je za odmor bez potrage za tragom jer ga nema!
