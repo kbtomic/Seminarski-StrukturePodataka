@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Levels">
+      <UniqueIdentifier>{2baa517c-8f7d-4bff-a0fb-3309499926aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Levels\Level1">
+      <UniqueIdentifier>{a42ba406-14a7-4cbc-999d-71fbd71917d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{19687bad-2fca-49f8-9516-428c68ad74a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{a9611c1f-b8c9-4271-b429-8e7a40ec5563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{ba8562b4-92d1-4d67-a138-03c32ae4c89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IslandFactory">
+      <UniqueIdentifier>{65dfb838-0e63-4fa9-a295-8f6710b265fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IslandFactory">
+      <UniqueIdentifier>{6285f14c-c642-485c-bb2a-31511820a2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{c997c1ff-813c-4bc8-ad0e-a3f7c3a48c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{d510c400-135a-41e2-b2f5-688f3e40c724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Setters">
+      <UniqueIdentifier>{45c0cc2b-ce71-469a-ab16-8937e447f5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Setters\SetLevel">
+      <UniqueIdentifier>{9adbb82f-b673-4665-82f3-1d71b2b21511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Setters">
+      <UniqueIdentifier>{9e61e226-0c24-493f-beb6-d07143cf1398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Setters\SetLevel">
+      <UniqueIdentifier>{98b8be79-1e04-4cad-97e0-e18bb04d8ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Setters\SetPointersOfDeathlyIslands">
+      <UniqueIdentifier>{e5866566-890b-4aa4-9169-72a45e2c27f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Setters\SetPointersOfDeathlyIslands">
+      <UniqueIdentifier>{6c6c62f3-b164-4b03-9e8b-eba7a74978e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Path">
+      <UniqueIdentifier>{277f2898-59a4-4ea0-b220-c8f50a6e8b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Path">
+      <UniqueIdentifier>{92fa7133-b28e-43f6-b5ec-ada8f3b6c174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stack">
+      <UniqueIdentifier>{76877145-2c08-4039-abc0-73f4beae949e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{eb42d522-4e85-4924-a8d8-3e11c52e9035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{d8bbad08-d42c-4965-b5f2-7039d0d9893e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{7242bd17-b72f-49c0-903b-6b68aca77ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers\Prints">
+      <UniqueIdentifier>{ca92a244-7cdb-4354-bbb6-d1c0a60f6e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers\Prints">
+      <UniqueIdentifier>{619cb3cf-d6ec-4eee-ba64-78df3c0b61dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers\IslandType">
+      <UniqueIdentifier>{c6ae118c-a8d9-4660-8e26-0d75f8dbd41b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers\IslandType">
+      <UniqueIdentifier>{194326da-efe2-419f-87ef-507d763b6507}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="levels.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="IslandsWithClue.txt">
+      <Filter>Resource Files\Levels\Level1</Filter>
+    </Text>
+    <Text Include="IslandsWithoutClue.txt">
+      <Filter>Resource Files\Levels\Level1</Filter>
+    </Text>
+    <Text Include="level1.txt">
+      <Filter>Resource Files\Levels\Level1</Filter>
+    </Text>
+    <Text Include="Coins.txt">
+      <Filter>Resource Files\Levels\Level1</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Structures.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadLevel.h">
+      <Filter>Header Files\Setters\SetLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadIslands.h">
+      <Filter>Header Files\IslandFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="StartIsland.h">
+      <Filter>Header Files\IslandFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberOfIslands.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Coins.h">
+      <Filter>Header Files\Setters</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuffleIslands.h">
+      <Filter>Header Files\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>Header Files\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Print.h">
+      <Filter>Header Files\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Flow.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinCalculator.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatus.h">
+      <Filter>Header Files\Helpers\Prints</Filter>
+    </ClInclude>
+    <ClInclude Include="Respawn.h">
+      <Filter>Header Files\Helpers\Prints</Filter>
+    </ClInclude>
+    <ClInclude Include="IslandType.h">
+      <Filter>Header Files\Helpers\IslandType</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPrize.h">
+      <Filter>Header Files\Helpers\Prints</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializeValue.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializeValue.c">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AllocateMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="AllocateMemory.c">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadLevel.c">
+      <Filter>Source Files\Setters\SetLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadIslands.c">
+      <Filter>Source Files\IslandFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartIsland.c">
+      <Filter>Source Files\IslandFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberOfIslands.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PointersOfDeathlyIslands.h">
+      <Filter>Header Files\Setters\SetPointersOfDeathlyIslands</Filter>
+    </ClCompile>
+    <ClCompile Include="PointersOfDeathlyIslands.c">
+      <Filter>Source Files\Setters\SetPointersOfDeathlyIslands</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Coins.c">
+      <Filter>Source Files\Setters</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffleIslands.c">
+      <Filter>Source Files\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.c">
+      <Filter>Source Files\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.c">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Print.c">
+      <Filter>Source Files\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Flow.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinCalculator.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatus.c">
+      <Filter>Source Files\Helpers\Prints</Filter>
+    </ClCompile>
+    <ClCompile Include="Respawn.c">
+      <Filter>Source Files\Helpers\Prints</Filter>
+    </ClCompile>
+    <ClCompile Include="Travels.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Travels.h">
+      <Filter>Header Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="IslandType.c">
+      <Filter>Source Files\Helpers\IslandType</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPrize.c">
+      <Filter>Source Files\Helpers\Prints</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -25,7 +25,7 @@ typedef struct island {
 	int hasClue;
 	char clue;
 	int coins;
-}Island;
+} Island;
 
 typedef struct stack {
 	islandPointer data;

@@ -264,7 +264,7 @@ islandPointer CreateIslands(char* nameOfFile)
 	if (fp == NULL)
 	{
 		printf("Neuspjesno otvaranje datoteke!\n");
-		return 1;
+		return NULL;
 	}
 	islandPointer islands = NULL;
 	fscanf(fp, "%d", &numberOfIslands);
