@@ -14,7 +14,7 @@ islandPointer TravelToLeftIsland(int* currentAmountOfCoins, int* numberOfFoundCl
 		printf("%s\n", currentIsland->description);
 		if (isClueIsland(currentIsland))
 		{
-			printf("Clue is: %c\n", currentIsland->clue);
+			printf("Trag je: %c\n", currentIsland->clue);
 			*numberOfFoundClues += 1;
 		}
 		else if (isDeathlyIsland(currentIsland, start))
@@ -67,7 +67,7 @@ islandPointer TravelToRightIsland(int* currentAmountOfCoins, int* numberOfFoundC
 		printf("%s\n", currentIsland->description);
 		if (isClueIsland(currentIsland))
 		{
-			printf("Clue is: %c\n", currentIsland->clue);
+			printf("Trag je: %c\n", currentIsland->clue);
 			*numberOfFoundClues += 1;
 		}
 		else if (isDeathlyIsland(currentIsland, start))

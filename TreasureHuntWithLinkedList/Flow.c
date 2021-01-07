@@ -32,7 +32,7 @@ int Game(islandPointer islandsWithClue, islandPointer islandsWithoutClue, island
 	}
 	if (numberOfFoundClues == numberOfIslands)
 	{
-		printf("Cestitam, pronasao si sve znakove!!!\n");
+		printf("Cestitam, pronasao si sve tragove!!!\n");
 		if (HaveEnoughCoins(currentAmountOfCoins, COINS_AMOUNT_FOR_RESPAWN_OR_MAIN_PRIZE))
 		{
 			OpenMainPrize(islandsWithClue, stackHead);
